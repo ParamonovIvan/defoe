@@ -3,10 +3,6 @@
     loop: true,
     slidesPerView: 3,
     speed: 1500,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
     centeredSlides: true,
     pagination: {
       el: '.showcase-pagination',
