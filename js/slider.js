@@ -4,7 +4,7 @@
     slidesPerView: 3,
     speed: 1500,
     autoplay: {
-      delay: 3500,
+      delay: 5000,
       disableOnInteraction: false,
     },
     centeredSlides: true,
