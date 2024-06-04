@@ -355,7 +355,7 @@ body {
   left: 0;
   right: 0;
   opacity: .5;
-  font-size: calc(var(--index) * .75);
+  font-size: calc(var(--index) * .5);
   letter-spacing: calc(var(--index) / 37.5);
   color: var(--text);
   text-align: center;
