@@ -459,3 +459,20 @@ body {
     margin-left: calc(var(--index) * 8);
   }
 }
+
+@media screen and (orientation:landscape) {
+  .showcase-info {
+    width: calc(calc(1vw + 1vh) * 20);
+    bottom: calc(var(--index) * -7);
+    margin-left: calc(var(--index) * 7);
+  }
+  
+  .showcase-carousel__image-wrapper > * {
+    height: 650%;
+    bottom: calc(var(--index) * -7.5);
+  }
+
+  .showcase-pagination {
+    top: calc(calc(1vw + 1vh) * 5);
+  }
+}
