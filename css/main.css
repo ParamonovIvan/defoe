@@ -443,7 +443,7 @@ body {
   }
 
   .showcase-carousel__image-wrapper > * {
-    bottom: calc(var(--index) * 8);
+    bottom: calc(var(--index) * 2.5);
   }
 }
 
