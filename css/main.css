@@ -38,7 +38,7 @@ body {
   position: absolute;
   z-index: 100;
   width: 100%;
-  height: calc(var(--index) * 10);
+  height: calc(var(--index) * 9);
   background-image: url(../img/ground.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -214,16 +214,6 @@ body {
   opacity: .1;
   transform: scale(.75);
   transition: opacity 1.8s cubic-bezier(.4, 0, 0, 1), transform 1.8s cubic-bezier(.4, 0, 0, 1);
-}
-
-.showcase-carousel__item::after {
-  content: '';
-  width: 120px;
-  height: 0;
-  position: absolute;
-  box-shadow: 0 0 45px 10px #010101;
-  bottom: 5px;
-  left: calc(50% - 60px);
 }
 
 .showcase-info {
