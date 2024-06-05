@@ -468,7 +468,7 @@ body {
   }
 
   .showcase-carousel__image-wrapper > * {
-    height: 650%;
+    height: 550%;
     bottom: calc(var(--index) * -7.5);
   }
 
