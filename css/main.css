@@ -99,6 +99,7 @@ body {
 .layer__contacts a img {
   width: calc(var(--index) * .9);
   height: calc(var(--index) * .9);
+  margin-bottom: calc(var(--index) * .75);
 }
 
 .layer__contacts a:hover {
