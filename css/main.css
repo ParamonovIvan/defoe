@@ -442,6 +442,10 @@ body {
     height: 70%;
     bottom: calc(var(--index) * 8);
   }
+  
+  .showcase-pagination {
+    top: calc(calc(1vw + 1vh) * 6);
+  }
 }
 
 @media only screen and (max-width: 550px) {
